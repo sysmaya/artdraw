@@ -82,7 +82,9 @@ xxxxxxx
 <tr>
 </tr></table>
 
-<table>
+xxxx
+
+  <table>
 <tr>
 <td><b>Ovals Pencil Tool</b></td>
 <td><b>Rectangle Pencil Tool</b></td></tr>
@@ -98,6 +100,29 @@ xxxxxxx
 <td>This tool makes rectangles, just rectangles and squares, and rectangles.</tr>
 <tr>
 </tr></table>
+
+xxx
+
+  <table>
+<tr>
+<td><b>Text Tool</b></td>
+<td><b>Clipparts Tool</b></td></tr>
+<tr>
+<td valign='top'>
+<img src='https://user-images.githubusercontent.com/18316343/231058186-1ec39380-6dbf-4a5c-9d1d-2f0b9daab66d.gif' alt='Text tool'>
+</td>
+<td valign='top'>
+<img src='https://user-images.githubusercontent.com/18316343/231063618-67a40122-4e9c-46c3-ba0c-ad189dbb1813.gif' alt='Clipparts tool'>
+</td>
+<tr>
+<td>The Text tool allows you to create 2 types. Simple <text> and vector text with the OpenType library. Artdraw includes more than 500 GoogleFonts.</td>
+<td>Enter the clipparts gallery and select the design of your liking. Insert it to the document. Then you can modify size, colors, etc.</tr>
+<tr>
+</tr></table>
+
+
+
+
 
 
 
