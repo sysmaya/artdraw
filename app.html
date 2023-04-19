@@ -3405,10 +3405,8 @@
 <script src="js/openFile.js?z=7"></script>
 <script src="js/rough.js"></script>
 <script src="js/svgpath.min.js"></script>
-<script src="https://artdraw.org/jscript/js.cookie.min.js"></script>
+<script src="js/js.cookie.min.js"></script>
 <script src="js/bezier.js?z=1"></script>
-
-<!--script src="js/magic.js?z=77"></script -->
 
 
 <script>
@@ -3503,7 +3501,7 @@ checkLogin();
 
   function initClient() {
     OAUTHclient = google.accounts.oauth2.initTokenClient({
-        client_id: '322184516510-aljao0c4m2ps43qpjctqi1u4dqqtjvgf.apps.googleusercontent.com',
+        client_id: 'YOUR_CLIENT_ID_GOOGLE',
         scope: 'profile',
         callback: (tokenResponse) => {
           var OAUTHaccess_token = tokenResponse.access_token;
@@ -3511,7 +3509,7 @@ checkLogin();
         $.ajax({
           type: 'POST',
           url: 'https://artdraw.org/querys/svg/glogin.php',
-          data: "id_token="+OAUTHaccess_token+"&mode=go&z="+z+"&sitio=artdraw.muisca.co",
+          data: "id_token="+OAUTHaccess_token+"&mode=go&z="+z,
           success: function(result) {
               //console.log(result);
               try{
